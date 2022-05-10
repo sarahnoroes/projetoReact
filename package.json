@@ -34,5 +34,24 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahnoroes/projetoReact.git"
+  },
+  "keywords": [
+    "CSS3",
+    "HTML5",
+    "JS",
+    "REACT."
+  ],
+  "author": "Sarah Norões",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahnoroes/projetoReact/issues"
+  },
+  "homepage": "https://github.com/sarahnoroes/projetoReact#readme"
 }

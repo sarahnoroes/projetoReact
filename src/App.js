@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import Header from './components/Header';
 import './App.css';
 
+
 function App() {
+  
+  const dados = {
+    nome: "Glaucio Daniel",
+    empresa: "Fiap ",
+    site: "https://www.fiap.com.br",
+    className: "App-link",
+  };
+
   return (
+    //JSX - JavaScript Extensible
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header options={dados}/>
     </div>
   );
 }
+
 
 export default App;
